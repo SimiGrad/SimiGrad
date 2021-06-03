@@ -1,0 +1,12 @@
+{
+    "train_batch_size": 256,
+    "gradient_accumulation_steps":1,
+    "steps_per_print": 2000,
+    "wall_clock_breakdown": false,
+
+
+    "fp16": {
+      "enabled": false,
+      "loss_scale": 0
+    }
+  }
