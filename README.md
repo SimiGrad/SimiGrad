@@ -31,7 +31,7 @@ After the BERT pretrain, use `DeepSpeedExamples/BingBertSquad/run_squad_deepspee
 ### ResNet18 on CIFAR10
 All scripts can be found in `DeepSpeedExamples/pytorch-cifar/`. Use the script `run.sh` to train ResNet18 with specific parameters. Use the `grid_search.py` and `baseline_grid_search.py` to get the Pareto results of test acc vs. batch size in the paper.
 ### ResNet50 on ImageNet
-All scripts can be found in `DeepSpeedExamples/imagenet_deepspeed/`. Use the script `run_with2kmin.sh` to train ResNet18 with spcific parameters.
+All scripts can be found in `DeepSpeedExamples/imagenet_deepspeed/`. Use the script `run_with2kmin.sh` to train ResNet50 with spcific parameters.
 
 ## Anonymity of this Repo
 We have removed all information that may lead to our identity from the code. This repo is uploaded by an anonymous account with a forward email address to ensure anonymity.
